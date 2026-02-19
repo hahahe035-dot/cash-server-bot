@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: cash-server-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
